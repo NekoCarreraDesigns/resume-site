@@ -1,0 +1,14 @@
+.navigator {
+  background-color: bisque;
+  color: black;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+.nav-button {
+  border-radius: 10px;
+  background-color: burlywood;
+  color: black;
+  margin: 10px;
+}
