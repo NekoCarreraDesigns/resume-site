@@ -1,0 +1,26 @@
+.intro {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.submit-button,
+.sign-up-button {
+  border-radius: 10px;
+  color: black;
+  background-color: burlywood;
+  margin-top: 5px;
+}
+
+.username,
+.password {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.user-inputs {
+  margin: 100px 0px 0px 500px;
+}
