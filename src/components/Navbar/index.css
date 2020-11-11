@@ -12,3 +12,11 @@
   color: black;
   margin: 10px;
 }
+
+.nav-button:hover {
+  background-color: cornflowerblue;
+}
+
+.nav-button:focus {
+  background-color: cadetblue;
+}
