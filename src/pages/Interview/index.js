@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react"
+import {LoremIpsum} from "react-lorem-ipsum";
 import "./index.css";
 
 function Interview () {
@@ -16,7 +17,13 @@ function Interview () {
                 to some of these questions</p>
             </section>
             <ul>
-                <li className="question-1">lorem.ipsum.line</li><button className="example-button">Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+    <li className="question">{questions}{LoremIpsum()}</li><button className="example-button" onClick={() => setQuestions}>Example</button>
+   
             </ul>
         </div>
     )
