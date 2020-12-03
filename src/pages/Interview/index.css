@@ -1,0 +1,21 @@
+.interview-page-header {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.interview-question-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.example-button {
+  width: 100px;
+  border-radius: 5px;
+  color: red;
+}
